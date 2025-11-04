@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            
+        }
+        .form-container {
+            border: 1px solid black;
+            padding: 20px;
+            width: 500px;
+            margin: 20px auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Hotel Room Booking Form</h1>
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="check-in-date">Check-in Date: dd-mm-yyyy</label>
+                <input type="date" id="check-in-date" name="check-in-date">
+            </div>
+
+            <div class="form-group">
+                <label for="check-out-date">Check-out Date: dd-mm-yyyy</label>
+                <input type="date" id="check-out-date" name="check-out-date">
+            </div>
+
+            <div class="form-group">
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type">
+                    <option value="single-room">Single Room</option>
+                    <option value="double-room">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="num-guests">Number of Guests:</label>
+                <input type="number" id="num-guests" name="num-guests" min="1">
+            </div>
+
+            <div class="form-group">
+                <label for="special-requests">Special Requests:</label>
+                <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Book Now</button>
+                <button type="reset">Reset Form</button>
+            </div>
+
+        </form>
+    </div>
+<h2>Shalini Yadav</h2>
+<h2>2025B01010162</h2>
+</body>
+</html>

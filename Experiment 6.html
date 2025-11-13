@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy Product</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 100%;
+            margin: 20px auto;
+            border: 1px solid #c6bdbd;
+            background-color: #ebe2e2;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .product-card {
+            border: 1px solid #aea4a4;
+            padding: 15px;
+            display: inline-block;
+            width: 80%;
+            max-width: 300px;
+            background-color: #fbfbfb;
+        }
+        .product-image {
+            background-color: #f7f5f5;
+            padding: 10px;
+            border: 1px solid #d9d3d3;
+            margin-bottom: 10px;
+        }
+        .product-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .product-title {
+           font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            
+        }
+        .product-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+            align-items: left;
+        }
+        .product-price {
+            
+            font-size: 20px;
+            font-weight: bold;
+            color:green;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            gap: 10px;
+        }
+        .original-price {
+            font-size: 14px;
+            color: #999;
+            text-decoration: line-through;
+        }
+        .add-to-cart {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 15px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            ShopEasy
+        </div>
+        <div class="content">
+            <div class="product-card">
+                <div class="product-image">
+                    <!-- Placeholder for the green t-shirt image -->
+                    <img src="Screenshot 2025-11-13 090822.jpg" alt="Classic Cotton T-Shirt">
+                </div>
+                <div class="product-title">
+                   <h3 align="left"> Classic Cotton T-Shirt</h3>
+                </div>
+                <div class="product-description">
+                    <h4 align="left">Soft, breathable cotton. Regular fit.
+                     Available in multiple colors.</h4>
+                </div>
+                <div class="product-price">
+                    ₹799
+                    <span class="original-price">₹1,199</span>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
